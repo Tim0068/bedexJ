@@ -4724,3 +4724,10 @@ body {
 }
 #pageProducts div #navBar {
 }
+#pageContact div div #contactDetails {
+	width: 70%;
+	margin-left: 15%;
+	font-size: 16pt;
+	color: #333;
+	margin-top: 2em;
+}

@@ -4731,3 +4731,16 @@ body {
 	color: #333;
 	margin-top: 2em;
 }
+#pageOrder div form .ui-grid-a .ui-block-a {
+}
+#pageOrder div form .ui-grid-a .ui-block-b {
+}
+#pageOrder div form .ui-grid-a #A {
+	width: 20%;
+	padding: 0px;
+	text-align: center;
+}
+#pageOrder div form .ui-grid-a #B {
+	float: right;
+	width: 70%;
+}

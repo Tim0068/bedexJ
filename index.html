@@ -137,7 +137,7 @@ for all bed, table, floor and wall applications
       </div>
       <!--/popups-->
       <div id="orderBtn">
-      <a href="#pageOrder" class="ui-btn">Order Form</a>
+      <a href="#pageOrder" class="ui-btn">Request for Quote</a>
       </div><!--/orderBtn-->
       </div><!--/content-->
     </div><!--/pageProducts-->
@@ -173,10 +173,11 @@ for all bed, table, floor and wall applications
       <div data-role="header">
         <h1></h1>
       </div>
-      <div data-role="content" style="padding:10px">
+      <div data-role="content" style="padding:10px;">
       <form method="post" action="MAILTO:tim@bedex.com.au">
         <div class="ui-grid-a">
-          <div class="ui-block-a"><label for="fname">First name:</label>
+          <div class="ui-block-a">
+          <label for="fname">First name:</label>
         <input type="text" name="fname" id="fname"></div>
           <div class="ui-block-b"><label for="lname">Last name:</label>
         <input type="text" name="lname" id="lname"></div>
@@ -184,14 +185,14 @@ for all bed, table, floor and wall applications
           <label for="fname">Phone number:</label>
         <input type="text" name="fname" id="fname"></div>
         </div>
-  <label for="streetAddress">Delivery Address</label>
-        <input type="text" name="streetAddress" id="streetAddress"  placeholder="Deliver to:">
-        <label for="email">Email for contact & invoicing</label>
-        <input type="text" name="email" id="email"  placeholder="email">
-        <div class="ui-grid-a">
-          
-          <div class="ui-block-a" id="A">
-            <div data-role="fieldcontain">
+        <p>
+          <label for="streetAddress">Delivery Address</label>
+          <input type="text" name="streetAddress" id="streetAddress"  placeholder="Deliver to:">
+          <label for="email">Email for contact & invoicing</label>
+          <input type="text" name="email" id="email"  placeholder="email">        
+        <p>&nbsp; </p>
+        <div class="ui-block-a" id="A">
+          <div data-role="fieldcontain">
               <label for="selectmenu" class="select">Quantity:</label>
               <select name="selectmenu" id="selectmenu" data-iconpos="noicon">
                 <option value="option1">0</option>
@@ -210,11 +211,15 @@ for all bed, table, floor and wall applications
                 <option value="option3">Home Exercise Kit</option>
                 <option value="option3">Mini Kit</option>
               </select>
-              
+            
+        
+            <div class="ui-grid-a">
+              <div class="ui-block-a"><a href="#pageHome" class="ui-btn" data-inline="true">Exit</a></div>
+              <div class="ui-block-b"><input type="submit" data-inline="true" value="Submit"></div>
             </div>
-            <input type="submit" data-inline="true" value="Submit">
-         </div>
-        </div>
+           </div>
+            </div>
+       
       </form>
       </div>
       <!--/page content-->
